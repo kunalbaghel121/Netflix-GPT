@@ -29,7 +29,7 @@ useUpcomingMovies();
       ) : (
         <>
           <MainContainer />
-          <SecondaryContainer />
+          <SecondaryContainer className="bg-black"  />
         </>
       )}
 

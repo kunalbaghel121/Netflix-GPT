@@ -18,10 +18,13 @@ const gptSlice = createSlice({
       state.movieNames = movieNames;
       state.movieResults = movieResults;
     },
+    addKey:(state,action)=>{
+      state.key = action.payload
+    }
    
   },
 });
 
-export const { toggleGptSearchView, addGptMovieResult } = gptSlice.actions;
+export const { toggleGptSearchView, addGptMovieResult,addKey } = gptSlice.actions;
 
 export default gptSlice.reducer;

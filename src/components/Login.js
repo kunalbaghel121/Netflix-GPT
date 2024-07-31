@@ -76,8 +76,8 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <div className="absolute">
-      <img className="h-screen object-cover" src={BG_URL} alt="logo" />
+      <div>
+      <img className="absolute bg-slate-500 h-screen object-cover w-full" src={BG_URL} alt="logo" />
       </div>
 
       <form
